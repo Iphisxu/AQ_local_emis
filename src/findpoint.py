@@ -54,7 +54,7 @@ def assign_values_to_grid(input_table, gridfile, lon_col, lat_col, value_cols):
             x_index, y_index = findpoint(lon, lat, gridfile)
 
             # Add the value to the new variable at the nearest grid point
-            new_variable[y_index, x_index] += value
+            new_variable[y_index, x_index] += float(value)
 
         # Assign the new variable to the new dataset using the specified name
         new_dataset[col] = (('y', 'x'), new_variable)
