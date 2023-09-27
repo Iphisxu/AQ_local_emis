@@ -31,11 +31,11 @@ meic_shp_file = meicdir + 'emis.CN3AH_135X138.shp.ncf'
 
 # allocated emis
 allocated_dir = datadir + 'step2_allocated/'
-lex_ind_file = allocated_dir + 'ind.nc'
-lex_pow_file = allocated_dir + 'pow.nc'
-lex_tra_file = allocated_dir + 'tra.nc'
-lex_res_file = allocated_dir + 'res.nc'
-lex_agr_file = allocated_dir + 'agr.nc'
+leaq_ind_file = allocated_dir + 'ind.nc'
+leaq_pow_file = allocated_dir + 'pow.nc'
+leaq_tra_file = allocated_dir + 'tra.nc'
+leaq_res_file = allocated_dir + 'res.nc'
+leaq_agr_file = allocated_dir + 'agr.nc'
 
 # =============================================================
 
