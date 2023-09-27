@@ -1,11 +1,11 @@
 clear
 % Specify file paths
 sections = {'ind','pow','tra','res','agr'};
-gridname = 'CN3XS_135X138';
-input_path = 'D:/data/Project_Xiaoshan/Local_emis_2020/integrated_emis/';
-output_path = 'D:/data/Project_Xiaoshan/Local_emis_2020/to_upload/';
+gridname = 'CN3AH_135X138';
+input_path = 'D:/data/Project_Anqing/Local_emis_2021/create_emis/step2_integrated/';
+output_path = 'D:/data/Project_Anqing/Local_emis_2021/create_emis/step3_to_upload/';
 
-gridfile = 'D:/data/Project_Xiaoshan/GRIDCRO2D_2022234.nc';
+gridfile = 'D:/data/Project_Anqing/GRIDCRO2D_2023141.nc';
 
 for sec = sections
     input_nc_file = [input_path,'emis.',gridname,'.',sec{1},'.ncf'];
