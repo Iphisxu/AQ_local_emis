@@ -4,13 +4,13 @@ datadir = progdir + 'Local_emis_2021/create_emis/'
 
 # local emis
 emisdir   = datadir + 'step0_original/'
-emisfile1  = emisdir + 'AQ_2021_standard.xlsx'
-emisfile2  = emisdir + 'AQ_2021_inventory.xlsx'
-# emispoint = emisdir + 'point_source.xlsx'
-# emisarea  = emisdir + 'area_source.xlsx'
+emispoint  = emisdir + 'AQ_2021_4_point.xlsx'
+emistemp  = emisdir + 'AQ_2020_map.xlsx'
+emisarea  = emisdir + 'AQ_2020_area.xlsx'
 
 # sector mapping file
 secmap = datadir + 'SectorMapping.xlsx'
+secmap_area = datadir + 'SectorMapping_area.xlsx'
 
 # local emis netcdf
 emis_nc_dir = datadir + 'step1_preliminary/meic_category/sum/'
