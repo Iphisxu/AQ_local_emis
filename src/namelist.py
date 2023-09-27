@@ -40,14 +40,14 @@ leaq_agr_file = allocated_dir + 'agr.nc'
 # =============================================================
 
 # for TEST_SIM
-timestart = '2023-06-11T00'
-timeend   = '2023-06-16T23'
+# timestart = '2023-06-11T00'
+# timeend   = '2023-06-16T23'
 
-mcip_file   = progdir + 'TEST_SIM/AQ_test_mcip.nc'
-meic_ncfile = progdir + 'TEST_SIM/AQ_test_meic.nc'
-lex_ncfile  = progdir + 'TEST_SIM/AQ_test_lex.nc'
+# mcip_file   = progdir + 'TEST_SIM/AQ_test_mcip.nc'
+# meic_ncfile = progdir + 'TEST_SIM/AQ_test_meic.nc'
+# lex_ncfile  = progdir + 'TEST_SIM/AQ_test_lex.nc'
 
 # shapefile
-shphz   = progdir + 'shapefile/杭州市/杭州市.shp'
-shpAQ = progdir + 'shapefile/萧山区/萧山区.shp'
-shpmap   = progdir + 'shapefile/杭州市各区/杭州市各区.shp'
+shpaq   = progdir + 'shapefile/Anqing/Anqing.shp'
+shpub = progdir + 'shapefile/Anqing_urban/urban.shp'
+shpmap   = progdir + 'shapefile/Anqing_district/anqing_district.shp'
