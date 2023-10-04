@@ -4,8 +4,8 @@ datadir = progdir + 'Local_emis_2021/create_emis/'
 
 # local emis
 emisdir   = datadir + 'step0_original/'
-emispoint  = emisdir + 'AQ_2021_4_point.xlsx'
-emistemp  = emisdir + 'AQ_2020_map.xlsx'
+emispoint  = emisdir + 'AQ_2021_standard.xlsx'
+emistemp  = emisdir + 'AQ_2020_area_temp.xlsx'
 emisarea  = emisdir + 'AQ_2020_area.xlsx'
 
 # sector mapping file
